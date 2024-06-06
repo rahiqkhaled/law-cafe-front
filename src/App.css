@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.bodyhome{
+  background-image:url(../public/images/backgroud3.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar-brand{
+  color: #FDF0D1;
+}
+.divhome{
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  grid-auto-rows: minmax(200px,700px);
+
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 90%;
+  /* height: 1000px; */
+
+}
+.team{
+margin-top: 30px;
+margin-left: 60px;
+}
+.hours{
+  
+  margin-top: 30px;
+}
+.news{
+  
+  margin-top: 30px;
+}
+.welcome{
+   background-color: #fdf0d1a9;
+   margin-top: 20px;
+   height: 250px;
+
+}
+.hwelcome{
+  text-shadow: 3px 3px #12372aa5;
+  text-align: center;
+  font-size: 40px;
+}
+.hourwork{
+  border: solid 4px #12372A ;
+  margin-top: 100px;
+  height: 250px;
+  background-color: #fdf0d19a;
+}
+.divteam{
+  border: solid 4px #12372A ;
+  margin-top: 20px;
+  height: 600px;
+  background-color: #fdf0d19a;
+}
+.divnews{
+  border: solid 4px #12372A ;
+  margin-top: 20px;
+  height: 600px;
+  background-color: #fdf0d17a;
+}
+.hhome{
+  text-shadow: 3px 3px #12372aa5;
+  text-align: center;
+  font-size: 40px;
+}
+.pinitial{
+  text-shadow: 2px 2px #12372aa5;
+  text-align: center;
+  font-size: 25px;
+
+}
+.btnteam{
+  background-color: #12372A;
+  color: #FDF0D1;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  margin-left: 130px;
+
+}
+.btnteam:hover{
+  background-color: #12372abc;
+
+}
+.disc1{
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+.whours{
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+
+}
+.btnhours{
+  background-color: #12372A;
+  color: #FDF0D1;
+  font-size: 20px;
+  width: 150px;
+  height: 65px;
+  margin-left: 145px;
+
+}
+.btnhours:hover{
+  background-color: #12372abc;
+
+}
+.btnnews{
+  display: block;
+  /* padding: 30px; */
+  background-color: #12372A;
+  color: #FDF0D1;
+  font-size: 20px;
+  width: 150px;
+  height: 65px;
+  margin-left: 145px;
+  margin-top: 40px;
+}
+.a3{
+  color: #FDF0D1;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.a3:hover{
+  color: #f7f5f1;
+ 
+  
+}
+.pro-sidebar{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
